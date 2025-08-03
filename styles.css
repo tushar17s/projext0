@@ -1,0 +1,12 @@
+form{
+    text-align: center;
+    margin: 250px;
+}
+div{
+   
+    top: 0;
+    right: 0;
+    position: absolute;
+    padding : 30px;
+    text-align: right;
+}
