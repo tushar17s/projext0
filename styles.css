@@ -32,11 +32,11 @@ a:hover{
 
 h1{
     color: white;
-    font-family: Roboto, arial, sans-serif;;
+    font-family: Roboto, arial, sans-serif;
     font-size: 90px;
 }
 
-h4{
+#h{
     display: flex;
     color: rgb(80, 182, 223);
     font-family: Roboto, arial, sans-serif;
@@ -108,3 +108,78 @@ img{
     margin-right: 520px;
 } 
 
+
+.container_sec{
+    display: flex;
+    flex-direction: column;
+    margin-left: 25px;
+    font-family: arial, sans-serif;
+}
+
+.form-row {
+      display: flex;
+      margin-bottom: 12px;
+    }
+
+label{
+    width: 200%;
+    max-width: 15%;
+    color: whitesmoke;
+    font-size: 12px;
+    font-family: Roboto, arial, sans-serif;
+    margin-top: 10px;
+}
+
+input{
+    width: 42%;
+    height: 25px;
+    background: transparent;
+    border: 1px solid rgba(250, 250, 250, 0.3);
+    
+}
+
+#third{
+    color: aliceblue;
+    margin-bottom: 20px;
+}
+
+#second{
+    color: rgb(236, 86, 86);
+    font-size: 20px;
+    margin-bottom: 60px;
+
+}
+
+#first{
+    font-size: 25px;
+    color: antiquewhite;
+    font-family: Roboto, arial, sans-serif;
+    margin-bottom: 45px;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+.buttons input{
+    display: flex;
+    width: 100%;
+    max-width: 10%;
+    background-color: rgb(34, 183, 241);
+    justify-content: right;
+    cursor: pointer;
+    margin-left: 47.5%;
+}
+
+input:focus {
+    outline: none; /* Removes default blue outline */
+    border-color: #0056b3; /* Darker border on focus */
+  }
+hr{
+    border: 1px solid black;
+    margin-top: 40px;
+    margin-top: 40px; margin-bottom: 10px;
+}
+
+.buttons input:hover{
+  border: 1px solid #dadce0; /* soft gray border on hover */
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1); /* subtle shadow */
+}
